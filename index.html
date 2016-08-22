@@ -5,7 +5,7 @@
 <html>
 
 <head>
-  <title>My first Web Page</title>
+  <title>Сайт про ногу</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     <p>Вводи логин и пароль сука!!!</p>
 
   <form action="#action1">
-    <input type="text" name="login" value="твой логин тварь" title="пиши логин" />
+    <input type="text" name="login" value="" title="пиши логин" />
     <input type="password" name="password" title="пиши пароль" />
 
 
@@ -25,6 +25,34 @@
     <input type="radio" name="sex" value="male" /> мужик
     <input type="radio" name="sex" value="female" /> тёлка <br/>
     <br/>
+
+    <p>Загрузи своё ебало на сайт! <sup>* можно сразу несколько<sup></p>
+    <input type="file" name="photo" multiple accept="image/*,image/jpeg">
+      <br /><br />
+
+      <p><b>А теперь опиши кто ты есть!</b></p>
+      <form action="textarea1.php" method="post">
+     <textarea rows="10" cols="45" name="usertext" title="кто ты такой? и чо ты хочешь?">  </textarea>
+      <p><input type="submit" value="Отправить"></p>
+    </form>
+
+    <p>Месяц и год когда ты пидр родился</p>
+    <select name="month">
+    <option value="december" selected="selected">Декабрь</option>
+      <option value="january" >январь</option>
+      <option value="february">февраль</option>
+      <option value="march">март</option>
+
+    </select>
+
+      <select name="year">
+        <option value="1986" selected="selected">1986</option>
+        <option value="1987" >1987</option>
+        <option value="1988" >1988</option>
+
+
+
+    </select>
 
     <p>Ломал ногу?</p>
     <input type="checkbox" name="lomalnogu" value="da" /> Да ломал ногу
@@ -36,14 +64,30 @@
 
     <p>Какие тёлки нравятся??? <select name="telki">
       <option value="girnie"> жирные </option>
-      <option value="srednie" selected="selected"> средние  </option>
-      <option value="hudie"> худые </option>
+      <option value="srednie" > средние  </option>
+      <option value="hudie" selected="selected"> худые </option>
     </select></p>
 
     <br /><br />
 
+      <p>На последок твоя тачка это:</p>
+      <select>
+         <optgroup label="German car">
+      <option value="BMW">БХА</option>
+      <option value="MERCEDES">МЕРИН</option>
+      </optgroup>
+        <optgroup label="Русский автопром">
+      <option value="VAZ8">Жигуль восьмёрка</option>
+      <option value="kalina" selected="selected">ЛАДА СЕДААН</option>
+           </select>
+      </optgroup> <br /><br />
 
-    <input type="submit" value="отправить свой высер " />
+
+
+       <p>Ладно, свободен сынок</p><br /><br />
+
+
+    <input type="submit" value="оптравить свой высер " />
     <input type="reset" value="Обнулить к ебеням всё " />
 
 
@@ -84,7 +128,7 @@
   <h3>Стишок</h3>
   <p>
     Я не знаю почему,<br/> Обосрался на скаку.<br/>
-    <em><s>пидр</s></em>
+    <del><s>пидр</s></del>
   </p>
 
   <img src="http://lorempixel.com/400/200/sports/Dummy-Text/" width="320" height="240" alt="fashionimg" />
@@ -94,9 +138,7 @@
   <!-- LINKS -->
   <p id="links"><i> Просто какие-то сссылки</i></p>
 
-<ul>
-  <li><a href="http://whise.ru" target="_blank" title="перейти на whise.ru"> <img src="photos\whiselogo.gif" alt="whiselogo" width="100"/> </a></li>
-</ul>
+<a href="http://whise.ru" target="_blank" title="перейти на whise.ru"> <img src="photos\whiselogo.gif" alt="whiselogo" width="100"/> </a></li>
 
   <br/>
   <br/>
@@ -119,6 +161,74 @@
 
     </table>
 
+    <br/>
+    <p>
+      Это самая охуенная картина
+    </p>
+
+    <table border=1>
+      <caption>Просто пиздец</caption>
+  <tr>
+    <td>123</td>
+    <td>123</td>
+    <td>123</td>
+    <td>123</td>
+    <td bgcolor="#fffa69" colspan="2" rowspan="3">123</td>
+
+  </tr>
+
+  <tr>
+    <td>123</td>
+    <td bgcolor="#ff5b2d" colspan="3" rowspan="3">123</td>
+
+
+  </tr>
+
+  <tr>
+    <td>123</td>
+
+
+  </tr>
+
+  <tr>
+    <td>123</td>
+    <td>123</td>
+    <td>123</td>
+
+  </tr>
+
+  <tr>
+    <td>123</td>
+    <td bgcolor="#000000" colspan="2" rowspan="2">123</td>
+    <td>123</td>
+    <td>123</td>
+    <td>123</td>
+
+  </tr>
+
+  <tr>
+    <td bgcolor="#fffa69" rowspan="3">123</td>
+    <td>123</td>
+    <td bgcolor="#074481" rowspan="2" colspan="2">123</td>
+
+  </tr>
+  <tr>
+    <td>123</td>
+    <td>123</td>
+    <td bgcolor="#000000" colspan="1">123</td>
+
+
+  </tr>
+  <tr>
+    <td>123</td>
+    <td>123</td>
+    <td>123</td>
+    <td>123</td>
+    <td>123</td>
+
+  </tr>
+</table>
+
   <p><i>Подвал этого ебаного сайта</i></p>
 
 
@@ -133,11 +243,9 @@
 
     <h3 id="news"> Новости </h3>
     <p> А новостей и нет нихуя, <br/> Идите на хуй
-      <p>
+    </p>
 
-    <p>
-     Год создания: <sub><small>Август</small></sub><sup><small>2016</small></sup>
-   </p>
+    <p><center><address>Год создания: <sub><small>Август</small></sub><sup><small>2016</small></sup>. Хуй проссышь откуда сайт</address></p>
 
   </footer>
 
