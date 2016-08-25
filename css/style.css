@@ -1,4 +1,7 @@
+
+
 /* background */
+body {background: #f09254;}
 
 /*p*/
 p {color: yellow; font-size: 20px; background: grey; }
@@ -7,5 +10,14 @@ p {color: yellow; font-size: 20px; background: grey; }
 .navitext {color: white; border: 2px solid #000; border-color: yellow }
 
 /*login & password*/
-.lopass [name="login"]{border: 2px dotted #000; border-color: #ff33aa}
-.lopass [name="password"]{border: 2px dotted #000; border-color: #ff33aa}
+.lopass [name="login"],[name="password"]{border: 2px dotted #000; border-color: #ff33aa}
+
+/*Audio*/
+#bgAudio {
+position: fixed;
+z-index: 1000;
+width:250px;
+}
+
+/*Kartina*/
+.kartina {border-color: #f09254; background: black}
